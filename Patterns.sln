@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{46605FDF-DA5F-440B-9655-0372D7957067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{356A51F1-2B71-4CB5-85F5-41B6CD90FE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{A1471DCA-C726-4D50-B078-9B253955E359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{B8687B4C-89C3-4485-87EC-D00B030A177E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{53D530EF-72AF-407E-992E-8EE6A61BA633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{C4E78124-AF88-4681-8021-35ECE0036CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{FE3BC562-2452-406E-AF8F-22AD56E69ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractMethod", "AbstractMethod\AbstractMethod.csproj", "{87E0BFB0-F1F8-4F91-874A-15E90B910D91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46605FDF-DA5F-440B-9655-0372D7957067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46605FDF-DA5F-440B-9655-0372D7957067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46605FDF-DA5F-440B-9655-0372D7957067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46605FDF-DA5F-440B-9655-0372D7957067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356A51F1-2B71-4CB5-85F5-41B6CD90FE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356A51F1-2B71-4CB5-85F5-41B6CD90FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356A51F1-2B71-4CB5-85F5-41B6CD90FE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356A51F1-2B71-4CB5-85F5-41B6CD90FE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1471DCA-C726-4D50-B078-9B253955E359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1471DCA-C726-4D50-B078-9B253955E359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1471DCA-C726-4D50-B078-9B253955E359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1471DCA-C726-4D50-B078-9B253955E359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D530EF-72AF-407E-992E-8EE6A61BA633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D530EF-72AF-407E-992E-8EE6A61BA633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D530EF-72AF-407E-992E-8EE6A61BA633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D530EF-72AF-407E-992E-8EE6A61BA633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3BC562-2452-406E-AF8F-22AD56E69ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3BC562-2452-406E-AF8F-22AD56E69ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3BC562-2452-406E-AF8F-22AD56E69ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3BC562-2452-406E-AF8F-22AD56E69ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E0BFB0-F1F8-4F91-874A-15E90B910D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E0BFB0-F1F8-4F91-874A-15E90B910D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E0BFB0-F1F8-4F91-874A-15E90B910D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E0BFB0-F1F8-4F91-874A-15E90B910D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46605FDF-DA5F-440B-9655-0372D7957067} = {B8687B4C-89C3-4485-87EC-D00B030A177E}
+		{356A51F1-2B71-4CB5-85F5-41B6CD90FE24} = {B8687B4C-89C3-4485-87EC-D00B030A177E}
+		{A1471DCA-C726-4D50-B078-9B253955E359} = {B8687B4C-89C3-4485-87EC-D00B030A177E}
+		{53D530EF-72AF-407E-992E-8EE6A61BA633} = {B8687B4C-89C3-4485-87EC-D00B030A177E}
+		{FE3BC562-2452-406E-AF8F-22AD56E69ADD} = {C4E78124-AF88-4681-8021-35ECE0036CA3}
+		{87E0BFB0-F1F8-4F91-874A-15E90B910D91} = {B8687B4C-89C3-4485-87EC-D00B030A177E}
+	EndGlobalSection
+EndGlobal
